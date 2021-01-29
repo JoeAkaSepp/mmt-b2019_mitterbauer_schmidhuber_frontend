@@ -90,8 +90,9 @@
   &.done {
     background-color: $color-state-done;
   }
-  &.no-state {
+  &.nostate {
     background-color: $color-background;
+    pointer-events: none;
   }
 }
 
