@@ -21,7 +21,7 @@ destination: _site ## Output folder
 ## Style Guide Shell Settings
 
 ## These settings are used in when generating the style guide shell
-sg_title: ToDoGether<br>Style Guide
+sg_title: ToDoGether Style&nbsp;Guide
 sg_version: 1.0
 sg_keywords: todogether, todo, jekyll, style guide, design, code
 sg_author: Josef Mitterbauer & Bernhard Schmidhuber
