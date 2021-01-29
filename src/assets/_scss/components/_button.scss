@@ -5,10 +5,10 @@
   vertical-align: middle;
   margin: 0 $small-pad/2 0 0;
   padding: $base-pad;
-  border: 4px solid $pink;
-  background: $white;
+  border: 4px solid $color-background-button;
+  background: $color-white;
   cursor: pointer;
-  color: $pink;
+  color: $color-background-button;
   line-height: 1;
   text-align: center;
   text-decoration: none;
@@ -17,8 +17,8 @@
 
   &:hover,
   &:focus {
-    background: $pink;
-    color: $white;
+    background: $color-background-button;
+    color: $color-white;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
   }
 }

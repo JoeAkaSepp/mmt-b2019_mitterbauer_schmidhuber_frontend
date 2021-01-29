@@ -1,14 +1,17 @@
 ---
-title: Accent Colors
+title: Background Colors
 styles: base/variables.scss
-maturity: draft
+maturity: ready
 control: exclude
-colors: 
-  - name: $blue
-    hex: 'lightskyblue'  
-  - name: $green
-    hex: 'lightseagreen'  
+colors:
+    - name: $color-background
+      hex: "#EEE"
+    - name: $color-background-tasks
+      hex: "#DDD"
+    - name: $color-background-button
+      hex: "#78A"
 ---
+
 <style>
 .set {
   display: flex;

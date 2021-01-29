@@ -1,16 +1,17 @@
 ---
-title: Primary Colors
+title: Task-State Colors
 styles: base/variables.scss
 maturity: ready
 control: exclude
-colors: 
-  - name: $color-primary
-    hex: '#24A'
-  - name: $color-white
-    hex: 'white'
-  - name: $color-black
-    hex: 'black'
+colors:
+    - name: $color-state-todo
+      hex: "#24A"
+    - name: $color-state-doing
+      hex: "#29A"
+    - name: $color-state-done
+      hex: "#2A5"
 ---
+
 <style>
 .set {
   display: flex;
