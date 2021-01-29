@@ -21,7 +21,7 @@ destination: _site ## Output folder
 ## Style Guide Shell Settings
 
 ## These settings are used in when generating the style guide shell
-sg_title: ToDoGether
+sg_title: ToDoGether<br>Style Guide
 sg_version: 1.0
 sg_keywords: todogether, todo, jekyll, style guide, design, code
 sg_author: Josef Mitterbauer & Bernhard Schmidhuber
@@ -53,11 +53,6 @@ defaults:
           layout: doc
           type: doc
     - scope:
-          path: "_docs/about"
-      values:
-          layout: doc
-          type: about
-    - scope:
           path: "_docs/foundations"
       values:
           layout: doc
@@ -68,16 +63,6 @@ defaults:
           layout: doc
           type: component
     - scope:
-          path: "_docs/templates"
-      values:
-          layout: doc
-          type: template
-    - scope:
-          path: "_docs/sample-pages"
-      values:
-          layout: doc
-          type: sample
-    - scope:
           path: "src/patterns"
       values:
           layout: pattern
@@ -85,11 +70,6 @@ defaults:
           maturity: planned
           title: Not Assigned
           styles: Not Assigned
-    - scope:
-          path: "src/patterns/sample-pages"
-      values:
-          type: sample
-          title: Not Assigned
 
 ###################################
 ## Pattern Settings

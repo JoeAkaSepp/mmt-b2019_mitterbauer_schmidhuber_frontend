@@ -7,13 +7,6 @@
   <ul>
     <li><a href="{{ site.baseurl }}/index.html"{% if page.url == '/' %} class="active"{% endif %}>Overview</a></li>
   </ul>
-  {% assign about = site.docs | where: 'type', 'about' | sort: 'url' %}
-  <div class="group">
-    <div class="group_title">About</div>
-    <ul>{% for doc in about %}
-      <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
-    {% endfor %}</ul>
-  </div>
   {% assign foundations = site.docs | where: 'type', 'foundation' | sort: 'url' %}
   <div class="group">
     <div class="group_title">Foundations</div>
@@ -28,15 +21,4 @@
       <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
     {% endfor %}</ul>
   </div>
-  {% assign templates = site.docs | where: 'type', 'template' | sort: 'url' %}
-  <div class="group">
-    <div class="group_title">Templates</div>
-    <ul>{% for doc in templates %}
-      <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
-    {% endfor %}</ul>
-  </div>
-  {% assign samples = site.docs | where: 'type', 'sample' | sort: 'url' %}
-  <ul>{% for doc in samples %}
-    <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
-  {% endfor %}</ul>
 </div>
