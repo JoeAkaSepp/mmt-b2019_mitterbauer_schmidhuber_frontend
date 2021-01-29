@@ -1,12 +1,12 @@
 ---
-title: Roboto Slab
+title: Roboto Condensed
 styles: abstracts/fonts.scss
 maturity: ready
 control: exclude
 ---
 <style>
   * {
-    font-family: 'Roboto Slab' !important;
+    font-family: 'Roboto Condensed' !important;
     word-wrap: break-word;
   }
   p {
