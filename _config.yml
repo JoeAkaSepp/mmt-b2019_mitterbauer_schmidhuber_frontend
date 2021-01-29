@@ -21,11 +21,11 @@ destination: _site ## Output folder
 ## Style Guide Shell Settings
 
 ## These settings are used in when generating the style guide shell
-sg_title: Jekyll Style Guide
-sg_version: 3.0
-sg_keywords: jekyll, style guide, playbook, design, code
-sg_author: Matthew Elsom
-sg_description: This Jekyll Style Guide maintains design and code standards and documentation for a digital user interface.
+sg_title: ToDoGether
+sg_version: 1.0
+sg_keywords: todogether, todo, jekyll, style guide, design, code
+sg_author: Josef Mitterbauer & Bernhard Schmidhuber
+sg_description: This Jekyll Style Guide maintains design and code standards and documentation for the ToDoGether project.
 sg_language: en
 sg_styles: /styleguide/css/styleguide.css
 sg_favicon: /styleguide/branding/favicon.ico
@@ -33,9 +33,9 @@ sg_ga: UA-19247091-8 ## Analytics Tracking
 
 ## Generates Style Guide Shell Styles
 ## Enable to change the style guide shell stylesheet.
-#sass:
-#  sass_dir: styleguide/_scss
-#  style: :compressed
+sass:
+  sass_dir: styleguide/_scss
+  style: :compressed
 
 ###################################
 ## Collection Settings
@@ -95,7 +95,7 @@ defaults:
 ## Pattern Settings
 ## These attributes are applied to all patterns via the pattern.html layout.
 
-pattern_author: Josef Markus Mitterbauer & Bernhard Schmidhuber ## used in <head> tag
+pattern_author: Josef Mitterbauer & Bernhard Schmidhuber ## used in <head> tag
 pattern_description: Style Guide for Project ToDoGether ## used in <head> tag
 pattern_language: en ## used in <html> tag
 pattern_favicon: /src/assets/images/icon.ico
