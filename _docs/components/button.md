@@ -20,6 +20,14 @@ A button can be made to fill its parent.
 
 # Advanced Buttons
 
-{% include pattern_block.html url='/src/patterns/components/button/animated_button.html' %}
+{% include pattern_block.html url='/src/patterns/components/button/filter_button.html' %}
 
-A button can be animated to show hidden content. Note the button will be sized according to the visible content. Make sure there is enough room for the hidden content to show.
+A filter button is there to filter the data selection.
+
+{% include pattern_block.html url='/src/patterns/components/button/state_buttons.html' %}
+
+A state button shows the current state of a task. This can be "ToDo", "Doing" or "Done".
+
+{% include pattern_block.html url='/src/patterns/components/button/slide_buttons.html' %}
+
+A slide button has the functionality to move a task from one state to another.
