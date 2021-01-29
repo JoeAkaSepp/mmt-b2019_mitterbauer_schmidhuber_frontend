@@ -3,8 +3,8 @@ title: Heros
 maturity: planned
 control: exclude
 items: 
-  - name: Banner A
-    path: src/assets/images/hero.png 
+  - name: Lettering
+    path: src/assets/images/lettering.png 
 ---
 <style>
 .set {
