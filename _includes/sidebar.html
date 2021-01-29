@@ -14,6 +14,13 @@
       <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
     {% endfor %}</ul>
   </div>
+  {% assign methodologies = site.docs | where: 'type', 'methodology' | sort: 'url' %}
+  <div class="group">
+    <div class="group_title">Methodologies</div>
+    <ul>{% for doc in methodologies %}
+      <li><a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a></li>
+    {% endfor %}</ul>
+  </div>
   {% assign components = site.docs | where: 'type', 'component' | sort: 'url' %}
   <div class="group">
     <div class="group_title">Components</div>

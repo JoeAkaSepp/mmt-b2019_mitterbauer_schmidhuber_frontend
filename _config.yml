@@ -58,6 +58,11 @@ defaults:
           layout: doc
           type: foundation
     - scope:
+          path: "_docs/methodologies"
+      values:
+          layout: doc
+          type: methodology
+    - scope:
           path: "_docs/components"
       values:
           layout: doc
