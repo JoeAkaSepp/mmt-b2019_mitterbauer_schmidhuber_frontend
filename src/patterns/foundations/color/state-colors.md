@@ -1,6 +1,6 @@
 ---
 title: Task-State Colors
-styles: base/variables.scss
+styles: abstracts/_variables.scss
 maturity: ready
 control: exclude
 colors:
