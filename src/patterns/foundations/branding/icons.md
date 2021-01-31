@@ -4,17 +4,17 @@ maturity: planned
 control: exclude
 items:
     - name: Favicon
-      path: src/assets/images/icon.ico
+      path: src/assets/images/icons/favicon/icon.ico
     - name: Tiny
-      path: src/assets/images/icon-16x16.png
+      path: src/assets/images/icons/favicon/icon-16x16.png
     - name: Mini
-      path: src/assets/images/icon-32x32.png
+      path: src/assets/images/icons/favicon/icon-32x32.png
     - name: Small
-      path: src/assets/images/icon-64x64.png
+      path: src/assets/images/icons/favicon/icon-64x64.png
     - name: Regular
-      path: src/assets/images/icon-128x128.png
+      path: src/assets/images/icons/favicon/icon-128x128.png
     - name: Large
-      path: src/assets/images/icon-512x512.png
+      path: src/assets/images/icons/favicon/icon-512x512.png
 ---
 
 <style>

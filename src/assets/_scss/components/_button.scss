@@ -43,7 +43,7 @@
     border: 0;
     border-radius: 100%;
     padding: 0;
-    background-image: url("../images/icon-filter.svg");
+    background-image: url("../images/icons/icon-filter.svg");
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,10 +73,10 @@
     background-position: center;
 
     &.left {
-      background-image: url("../images/icon-arrow-left.svg");
+      background-image: url("../images/icons/icon-arrow-left.svg");
     }
     &.right {
-      background-image: url("../images/icon-arrow-right.svg");
+      background-image: url("../images/icons/icon-arrow-right.svg");
     }
   }
 
