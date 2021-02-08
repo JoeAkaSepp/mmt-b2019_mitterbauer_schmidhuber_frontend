@@ -2,10 +2,11 @@
 title: Heros
 maturity: planned
 control: exclude
-items: 
+items:
   - name: Lettering
-    path: src/assets/images/lettering.png 
+    path: src/assets/images/lettering.png
 ---
+
 <style>
 .set {
   display: flex;
@@ -38,6 +39,8 @@ p {
   margin: 0;
 }
 </style>
+<p>The hero image shows the full name of the web application and is less present in the application itself but it is important to raise the recognition value of the app and therefore is placed in the menu.</p>
+
 <ul class="set">
 {% for item in page.items %} 
   <li>

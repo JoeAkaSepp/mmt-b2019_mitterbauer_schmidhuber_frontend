@@ -3,18 +3,18 @@ title: Icons
 maturity: planned
 control: exclude
 items:
-    - name: Favicon
-      path: src/assets/images/icons/favicon/icon.ico
-    - name: Tiny
-      path: src/assets/images/icons/favicon/icon-16x16.png
-    - name: Mini
-      path: src/assets/images/icons/favicon/icon-32x32.png
-    - name: Small
-      path: src/assets/images/icons/favicon/icon-64x64.png
-    - name: Regular
-      path: src/assets/images/icons/favicon/icon-128x128.png
-    - name: Large
-      path: src/assets/images/icons/favicon/icon-512x512.png
+  - name: Favicon
+    path: src/assets/images/icons/favicon/icon.ico
+  - name: Tiny
+    path: src/assets/images/icons/favicon/icon-16x16.png
+  - name: Mini
+    path: src/assets/images/icons/favicon/icon-32x32.png
+  - name: Small
+    path: src/assets/images/icons/favicon/icon-64x64.png
+  - name: Regular
+    path: src/assets/images/icons/favicon/icon-128x128.png
+  - name: Large
+    path: src/assets/images/icons/favicon/icon-512x512.png
 ---
 
 <style>
@@ -49,6 +49,7 @@ p {
   margin: 0;
 }
 </style>
+<p>For a mobile application a square icon is required. This square icon is also very present in the application linking back to the home screen and being shown when the web application is being installed as PWA (progressive web app) on the smartphone, tablet or even PC. The square outline border is used to pronounce the form of the icon.</p>
 <ul class="set">
 {% for item in page.items %} 
   <li>
