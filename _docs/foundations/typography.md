@@ -1,9 +1,7 @@
 ---
 title: Typography
-info: Roboto and Roboto Condensed fonts have been selected as the primary fonts for this system.
+info: Roboto and Roboto Condensed fonts have been selected as the primary fonts for this system. Inside the task componend and in the form fields the Roboto font should be used, otherwise the other elements in the app use the Roboto Condensed font.
 ---
-
-In the whole application the font Roboto was used, roboto condensed will be used only in the formattable description area of tasks.
 
 {% include pattern_block.html url='/src/patterns/foundations/typography/roboto.html' %}
 
