@@ -7,4 +7,4 @@ info: A variety of colors was used to style different elements. We diveded them 
 
 {% include pattern_block.html url='/src/patterns/foundations/color/background-colors.html' %}
 
-{% include pattern_block.html url='/src/patterns/foundations/color/state-colors.html' %}
+{% include pattern_block.html url='/src/patterns/foundations/color/status-colors.html' %}
