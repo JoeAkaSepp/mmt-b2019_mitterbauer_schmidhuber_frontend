@@ -9,7 +9,7 @@ colors:
     - name: $color-background-tasks
       hex: "#DDD"
     - name: $color-background-button
-      hex: "#78A"
+      hex: "#456"
 ---
 
 <style>
