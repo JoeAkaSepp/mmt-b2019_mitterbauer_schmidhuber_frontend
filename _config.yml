@@ -94,3 +94,5 @@ pattern_scripts: ## add script locations here
 sass:
     sass_dir: src/assets/_scss
     style: :compressed
+
+theme: jekyll-theme-cayman
