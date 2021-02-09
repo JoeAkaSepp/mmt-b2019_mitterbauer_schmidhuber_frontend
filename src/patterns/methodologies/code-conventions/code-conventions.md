@@ -13,28 +13,7 @@ maturity: ready
 - The closing braces `}` we put on a new line.
 - Between rule declarations we put a blank line in between.
 
-Good Code-Example:
-
-```scss
-.task-content {
-  min-width: 0;
-  width: 100%;
-  background-color: $color-background-tasks;
-  font-family: $roboto;
-
-  .duedate {
-    font-weight: lighter;
-    font-style: italic;
-  }
-
-  .top,
-  .bottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-```
+Good code example on end of the page.
 
 These code conventions are inspired by the [airbnb css / sass styleguide](https://github.com/airbnb/css).
 
