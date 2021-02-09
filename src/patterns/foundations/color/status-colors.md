@@ -1,14 +1,14 @@
 ---
-title: Task-State Colors
+title: Task-Status Colors
 styles: abstracts/_variables.scss
 maturity: ready
 control: exclude
 colors:
-    - name: $color-state-todo
+    - name: $color-status-todo
       hex: "#24A"
-    - name: $color-state-doing
+    - name: $color-status-doing
       hex: "#29A"
-    - name: $color-state-done
+    - name: $color-status-done
       hex: "#2A5"
 ---
 
@@ -37,6 +37,9 @@ p {
   margin: 0;
 }
 </style>
+
+<p>The task status colors are supposed to show the different status throughout the app. The todo status color aligns with the theme color whereas doing and done are trying to have a certain contrast to each.</p>
+
 <ul class="set">
 {% for item in page.colors %} 
   <li>

@@ -1,64 +1,41 @@
-# Jekyll Style Guide 
+# ToDoGether Style Guide
 
-👋 Hi! My name's [Matthew](https://matthewelsom.com), and I built this Jekyll-based tool that you can use to generate and document product or system user interface (UI) patterns in a simple [Style Guide](https://jekyllstyleguide.com).
+## About the project
 
-## Why?
+The web application [ToDoGether](https://todogether.projects.multimediatechnology.at/) was created during a project week at the Salzburg University of Applied Sciences (German: [Fachhochschule Salzburg](https://www.fh-salzburg.ac.at/)). The students Bernhard Schmidhuber and Josef Markus Mitterbauer, both created the web application in compliance with this style guide.
 
-There are a lot of really great styleguide methods, tools and [examples](http://styleguides.io) out there... but, I struggled to find one that was:
+## Why another task managing application?
 
-- easy and quick to use,
-- simple to maintain,
-- a match for my current workflow,
-- flexible enough to use on a wide variety of projects.
+All the applications where you were able to manage work for a team had a simple limitation: one task on the board has exactly one status for everyone in the team. So after a task was set to done it was done for the whole team.
 
-## Requirements
+As we used to list/manage our tasks on an university installation of [MediaWiki](https://www.mediawiki.org/) we've found out that this helps, but still everyone want's to keep track of their tasks separately. So why don't create an application that let's us manage the todos together but everyone can keep track on the status on their own? That's the gap that ToDoGether is about to fill.
 
-I decided that the following requirements would meet my needs: 
+## Purpose of the style guide
 
-- Use only [Jekyll](https://jekyll.rb) as a pre-requisit
-- Use HMTL/CSS/JS to build a web component, template, etc. (I called these 'patterns')
-- Track the 'maturity' of a pattern - i.e. is it ready to use, or not?
-- Automatically add all patterns into a 'Roadmap'
-- Enable simple documentation for developers, designers and product owners to use
-- Provide a style guide container or 'shell' that is unobtrusive and easy to visually customize
+Creating this styleguide helps us maintain the same look and feel throughout the application we want to develop and (maybe in the future, when the code will be open-source) it should help others to apply to our styles.
 
-
-## Help
-
-To get started using this tool check out these useful pages: 
-
-- Read the [design principles](https://jekyllstyleguide.com/docs/about/02-design-principle.html)
-- Setup and [installation](https://jekyllstyleguide.com/docs/about/01-getting-started.html) info
-- Learn how to [add patterns](https://jekyllstyleguide.com/docs/about/01-getting-started.html#adding-patterns), and [documentation](https://jekyllstyleguide.com/docs/about/01-getting-started.html#adding-documentation)
-- Understand the pattern [maturity](https://jekyllstyleguide.com/docs/about/03-maturity.html) scale
-- View all patterns in the [Roadmap](https://jekyllstyleguide.com/docs/about/04-roadmap.html)
-
-___
-
+---
 
 **This tool was originally published in the public domain as 'Living StyleGuide' on 12 September 2016 by [Matthew Elsom](https://matthewelsom.com)**
 
 It's name was changed to 'Jekyll Style Guide' in 2018, and it's license was updated.
 
-It was last updated in 2018 by Matthew Elsom. 
+It was last updated in 2018 by Matthew Elsom.
 
-Copyright © 2016 - 2018 & Beyond. All Rights Reserved. 
+Copyright © 2016 - 2018 & Beyond. All Rights Reserved.
 
 **This tool has been tested for Google Chrome (Mac) v67+ and iOS Safari. Use with Caution.**
 
-
-
-# License 
+# License
 
 This tool is free for everyone to use, and modify, but don't try and sell it.
 Available under [Apache license version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
-
 
 It was built using [Jekyll](https://jekyll.rb), it's [design principle](https://jekyllstyleguide.com/docs/about/02-design-principle.html) is based on the [US Design Standards](https://designsystem.digital.gov/design-principles/), and the css architecture is based on the [Simple SCSS Playbook](https://matthewelsom.com/blog/simple-scss-playbook.html).
 
 [View License File](https://github.com/matthewelsom/jekyll-style-guide/blob/master/LICENSE)
 
---- 
+---
 
 A few parts of this project are not in the public domain:
 
@@ -69,3 +46,7 @@ A few parts of this project are not in the public domain:
 - Normalize `[_normalize.scss]` was extrcted from [Normalize.css](https://github.com/necolas/normalize.css), copyright Nicolas Gallagher and Jonathan Neal.
 
 **Please check with the respective rights holders for license details.**
+
+# Powered by
+
+Our styleguide is powered by the [Jekyll Style Guide](https://jekyllstyleguide.com).

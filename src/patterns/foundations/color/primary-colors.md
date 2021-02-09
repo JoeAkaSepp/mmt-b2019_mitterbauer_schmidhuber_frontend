@@ -36,6 +36,9 @@ p {
   margin: 0;
 }
 </style>
+
+<p>The primary color (#24A) can be referenced as the theme color. It is used for the branding on the logo, hero image and as background color for the menu. The other primary colors, black and white, are being used for texts (as foreground color) on the different elements.</p>
+
 <ul class="set">
 {% for item in page.colors %} 
   <li>
