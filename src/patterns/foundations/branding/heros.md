@@ -1,6 +1,6 @@
 ---
 title: Heros
-maturity: planned
+maturity: ready
 control: exclude
 items:
   - name: Lettering

@@ -37,6 +37,9 @@ p {
   margin: 0;
 }
 </style>
+
+<p>The background colors are used as the colors for the main background of the "board", the background of the "tasks cards" themselves and the buttons used in the menu and on the various sites.</p>
+
 <ul class="set">
 {% for item in page.colors %} 
   <li>

@@ -37,6 +37,9 @@ p {
   margin: 0;
 }
 </style>
+
+<p>The task state colors are supposed to show the different states throughout the app. The todo state color aligns with the theme color whereas doing and done are trying to have a certain contrast to each.</p>
+
 <ul class="set">
 {% for item in page.colors %} 
   <li>

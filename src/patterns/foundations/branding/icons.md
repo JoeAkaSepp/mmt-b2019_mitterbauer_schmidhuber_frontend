@@ -1,6 +1,6 @@
 ---
 title: Icons
-maturity: planned
+maturity: ready
 control: exclude
 items:
   - name: Favicon
@@ -49,7 +49,9 @@ p {
   margin: 0;
 }
 </style>
-<p>For a mobile application a square icon is required. This square icon is also very present in the application linking back to the home screen and being shown when the web application is being installed as PWA (progressive web app) on the smartphone, tablet or even PC. The square outline border is used to pronounce the form of the icon.</p>
+
+<p>For a mobile application a square icon is required. This square icon is also very present in the application linking back to the home screen and being shown when the web application is being installed as PWA (progressive web app) on the smartphone, tablet or even PC. A square outline border is used to pronounce the form of the icon.</p>
+
 <ul class="set">
 {% for item in page.items %} 
   <li>
